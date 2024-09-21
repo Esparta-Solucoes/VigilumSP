@@ -13,7 +13,7 @@ def conexao_oracle(username, password, dsn):
         
         connection = cx_Oracle.connect(user=username, password=password, dsn=dsn)
         cursor = connection.cursor()
-        cursor.execute("SELECT * FROM TBL_Municipio")
+        cursor.execute("SELECT * FROM TB_ZONA")
 
         for row in cursor:
             print(row)
