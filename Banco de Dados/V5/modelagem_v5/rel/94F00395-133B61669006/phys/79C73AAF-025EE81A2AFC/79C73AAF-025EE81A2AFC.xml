@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StorageDesignOraclev12cR2 class="oracle.dbtools.crest.model.design.storage.oracle.v12cr2.StorageDesignOraclev12cR2" name="Oracle Database 12cR2" id="964F8705-8DF4-02DE-B49E-73AD03B7BC09" siteID="79C73AAF-E1A7-E669-7DF0-025EE81A2AFC" siteName="Oracle Database 12cR2" siteType="14">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:28 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</StorageDesignOraclev12cR2>

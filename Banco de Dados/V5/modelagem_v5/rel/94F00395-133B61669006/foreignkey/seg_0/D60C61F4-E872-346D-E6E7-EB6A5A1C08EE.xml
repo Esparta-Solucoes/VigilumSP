@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D60C61F4-E872-346D-E6E7-EB6A5A1C08EE" containerWithKeyObject="88581DC6-DFD0-7780-9C2A-5E41102AC568" localFKIndex="117A55FE-DBF7-0795-098F-D64591D79B6E" name="TB_PREV_RISCO_TB_CLIMA_PREV_FK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>RM557311</sourceObjSchema>
+<sourceObjName>TB_PREV_RISCO_TB_CLIMA_PREV_FK</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:35:18 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<referredTableLongName>RM557311.TB_CLIMA_PREV</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D9CE4155-FD4C-38C9-6662-F826FE1A2982</referredTableID>
+<keyObject>3B8DEF81-4E41-1F80-1C9D-D1832CDCEA76</keyObject>
+<referredKeyID>3B8DEF81-4E41-1F80-1C9D-D1832CDCEA76</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CD_PREVISAO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

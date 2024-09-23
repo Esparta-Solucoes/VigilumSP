@@ -1,0 +1,493 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B34B9CF8-778F-3067-9DB0-322D0A17286D" schemaObject="8BDFB479-16BE-1DBC-B7D0-023589A7189F" name="TB_ENDERECOS">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>RM557311</sourceObjSchema>
+<sourceObjName>TB_ENDERECOS</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:51 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_END" id="06CBC87F-9E96-EF88-5D13-E8C38DAAAB23">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>CD_END</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_ZONA_CD_ZONA" id="5A8C96B0-0E8A-F760-2A13-DA364360595F">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>TB_ZONA_CD_ZONA</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC6500C8-B64D-6571-1719-EE0958210101" referredColumn="EE7AD1F1-A59F-C43D-18A7-FE75E677EC69"/>
+</associations>
+</Column>
+<Column name="TB_DISTRITO_CD_DISTRITO" id="F0792A75-99B3-E0C3-436B-570E3A51CEAE">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>TB_DISTRITO_CD_DISTRITO</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C704C32-F8C3-547E-AA7F-71673F6FA207" referredColumn="2AA6EB63-A952-3BD0-9BE9-2F558E54FCE6"/>
+</associations>
+</Column>
+<Column name="TB_SOLO_CD_SOLO" id="9AAD4598-390B-BCC8-F780-F88E009BB9E9">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>TB_SOLO_CD_SOLO</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DD56E91-C5EB-F851-BA6C-11CAEA6BE5E4" referredColumn="8B034DF2-1FD9-C2A3-014B-52262185D691"/>
+</associations>
+</Column>
+<Column name="TB_INFRA_CD_INFRA" id="218CF04C-4AD4-B881-65D5-0226B3488828">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>TB_INFRA_CD_INFRA</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D026E7E-7F1D-5EB7-D54E-14B8DE63C669" referredColumn="FE0B206F-6D3D-1EE4-4522-3EC782CB9C25"/>
+</associations>
+</Column>
+<Column name="NR_CEP" id="B25EEB77-233C-3F43-D33A-FF182177E7D3">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>NR_CEP</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="long" id="2736129D-B969-B00E-9573-95E1085B946E">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>long</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAT" id="1F016BE3-75C4-7E8F-2D86-884EFEAA1E3A">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>LAT</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CD_SETOR" id="14234BA6-C601-933A-357D-1DA7DB28BC50">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>CD_SETOR</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_SETOR" id="D109A5DB-0644-5367-2E2E-38032B4E27D9">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>ST_SETOR</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TP_LOGRA" id="A8C28FAC-AE04-7240-B76D-BDD738391CD4">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>TP_LOGRA</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITULO_LOGRA" id="C228DAFE-ED37-61F6-D72B-EBC8BFD92F4A">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>TITULO_LOGRA</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_LOGRA" id="4E016760-67E4-C712-BBFD-BFC0175D717F">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>NM_LOGRA</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_EDIF" id="A63F9E41-D71A-2057-94F1-952D745D14D8">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>NR_EDIF</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MOD_NUM_LOGRA" id="5B5C9FA9-4758-FD15-F8DE-5CD8D26ADDCC">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>MOD_NUM_LOGRA</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Modifica numero logradouro]]></commentInRDBMS>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ELEM1" id="7237B8F8-70A8-90E8-8960-72A99AC19CA5">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>ELEM1</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL1" id="81BAE142-2FC9-3693-DBC5-089B92C16469">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>VL1</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ELEM2" id="79F468B0-317D-D269-0E20-F1226CB1DF27">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>ELEM2</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VL2" id="57A3FE86-5B92-A066-3D4A-D832676A6DED">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>VL2</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCALIDADE" id="9EEC01B7-AF8E-A4FB-F2A2-73D91D774E8D">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>LOCALIDADE</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INDICA_END" id="584649DE-D23A-C1DB-409F-1F076EB2B874">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>INDICA_END</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indica endereco]]></commentInRDBMS>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_QUADRA" id="A42ED18C-E23E-179E-388E-B52D517FA031">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>NR_QUADRA</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_FACE" id="85CC866B-17DC-57C7-7F9B-AB8234204B85">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>NR_FACE</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SETCENS" id="5A2465FA-1987-02CF-1090-4A92DFE2DE74">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>SETCENS</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AREAP" id="43E87C03-F762-90F5-54B5-A30AB8E10B1E">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>AREAP</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SETCENS2" id="FB344FF2-CEB7-D4B7-D706-A6DDDEC51E40">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>SETCENS2</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AREAP2" id="BE0C1005-583F-A026-A6D0-965A7AD18E79">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENDERECOS</sourceObjSchema>
+<sourceObjName>AREAP2</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE967C58-716E-971C-CA2E-D8505652B29A" name="TB_ENDERECOS_PK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>RM557311</sourceObjSchema>
+<sourceObjName>TB_ENDERECOS_PK</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:35:06 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06CBC87F-9E96-EF88-5D13-E8C38DAAAB23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B23B170-9BFD-2A2F-7AE4-EC5941A49E4D" schemaObject="8BDFB479-16BE-1DBC-B7D0-023589A7189F" name="TB_ENDERECOS_PK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>RM557311</sourceObjSchema>
+<sourceObjName>TB_ENDERECOS_PK</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:53 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06CBC87F-9E96-EF88-5D13-E8C38DAAAB23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93D6CF9F-D4F8-1912-51F4-FD95B77A8AC5" name="TB_ENDERECOS_TB_DISTRITO_FK">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:35:18 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0792A75-99B3-E0C3-436B-570E3A51CEAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5288B89B-4DD2-4E87-0D7E-1E3625D8844A" name="TB_ENDERECOS_TB_INFRA_FK">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:35:18 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="218CF04C-4AD4-B881-65D5-0226B3488828"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33C5992C-8679-A1CE-5994-3F216F83291C" name="TB_ENDERECOS_TB_SOLO_FK">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:35:18 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AAD4598-390B-BCC8-F780-F88E009BB9E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E051327-E647-991D-165A-CF3B460299C8" name="TB_ENDERECOS_TB_ZONA_FK">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:35:18 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A8C96B0-0E8A-F760-2A13-DA364360595F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

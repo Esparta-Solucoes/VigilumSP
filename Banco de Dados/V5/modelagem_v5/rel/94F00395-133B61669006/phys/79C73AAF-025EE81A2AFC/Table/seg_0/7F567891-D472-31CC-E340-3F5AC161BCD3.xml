@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TB_CLIMA_CHUVA" directorySegmentName="seg_0" id="7F567891-D472-31CC-E340-3F5AC161BCD3">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<schemaObject>8BDFB479-16BE-1DBC-B7D0-023589A7189F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1897D4B8-B8AB-317C-1743-4F91398E71F4</segment>
+<tableSpace>51DC3400-69D5-FE2F-C1F8-6B14BBD55071</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TB_DISTRITO_CD_DISTRITO" id="0E6A6D82-A2AD-29B6-7BA4-9EE8AC2588D7">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_CLIMA_CHUVA" id="2BBACC61-1FC1-EDC1-2980-1BE7183A223A">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="MEDIA_CHUVA" id="6D2DAF6F-BA0B-ACCD-6D83-D36CAC0296E2">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TB_CLIMA_CHUVA_TB_DISTRITO_FK" id="07FE2701-F11A-3AD4-A968-01CA1CF29821">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:35:18 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TB_CLIMA_CHUVA_PK" id="BB73773D-3AAE-3637-7BA8-507DF426A488">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:35:06 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<schemaObject>8BDFB479-16BE-1DBC-B7D0-023589A7189F</schemaObject>
+<segment>656DCD0D-CE5A-87E1-BE6D-E51F4861E2BA</segment>
+<tableSpace>51DC3400-69D5-FE2F-C1F8-6B14BBD55071</tableSpace>
+<indexSegment>656DCD0D-CE5A-87E1-BE6D-E51F4861E2BA</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

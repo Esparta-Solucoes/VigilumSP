@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8EED5E9C-FCF6-2BAA-27D2-DF94D6E65716" schemaObject="8BDFB479-16BE-1DBC-B7D0-023589A7189F" name="TB_SOLO">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>RM557311</sourceObjSchema>
+<sourceObjName>TB_SOLO</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:51 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_SOLO" id="8B034DF2-1FD9-C2A3-014B-52262185D691">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_SOLO</sourceObjSchema>
+<sourceObjName>CD_SOLO</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="TB_ENDERECOS_CD_END" id="911CBB7A-3236-6250-34AD-03564DC93886">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_SOLO</sourceObjSchema>
+<sourceObjName>TB_ENDERECOS_CD_END</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AC6AD12-A285-1BF8-A2A4-BD1100770B47" referredColumn="06CBC87F-9E96-EF88-5D13-E8C38DAAAB23"/>
+</associations>
+</Column>
+<Column name="COORD_GEOTECNICAS" id="35EED305-EC85-08B7-544A-902E5A7E1C50">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_SOLO</sourceObjSchema>
+<sourceObjName>COORD_GEOTECNICAS</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_OCORR" id="796E632C-0D09-956A-2B82-A13995262BAF">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_SOLO</sourceObjSchema>
+<sourceObjName>DS_OCORR</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6E56A37-DA1A-CEA1-FF9F-DB829F4A17DB" schemaObject="8BDFB479-16BE-1DBC-B7D0-023589A7189F" name="TB_SOLO_PK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>RM557311</sourceObjSchema>
+<sourceObjName>SYS_C003140603</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:53 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B034DF2-1FD9-C2A3-014B-52262185D691"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="990F6487-3241-8DD3-E5E0-109D08485009" name="TB_SOLO_TB_ENDERECOS_FK">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:35:18 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="911CBB7A-3236-6250-34AD-03564DC93886"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

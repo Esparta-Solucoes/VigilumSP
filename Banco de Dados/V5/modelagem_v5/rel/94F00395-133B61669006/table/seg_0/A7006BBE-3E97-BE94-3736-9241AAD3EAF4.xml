@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7006BBE-3E97-BE94-3736-9241AAD3EAF4" schemaObject="8BDFB479-16BE-1DBC-B7D0-023589A7189F" name="TB_ZONA">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>RM557311</sourceObjSchema>
+<sourceObjName>TB_ZONA</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:51 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_ZONA" id="EE7AD1F1-A59F-C43D-18A7-FE75E677EC69">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ZONA</sourceObjSchema>
+<sourceObjName>CD_ZONA</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="NM_ZONA" id="F94B1B9F-7815-33C6-7AF2-1FB2209D09CB">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ZONA</sourceObjSchema>
+<sourceObjName>NM_ZONA</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GEOMETRY" id="18F75499-1497-D0B3-EEDE-A06BE4E159B4">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ZONA</sourceObjSchema>
+<sourceObjName>GEOMETRY</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<allowSubtypeSubstitution>false</allowSubtypeSubstitution>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COORD_CENTRAL" id="01906A26-BE70-6D7E-5233-F6BAE721D954">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ZONA</sourceObjSchema>
+<sourceObjName>COORD_CENTRAL</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:52 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<allowSubtypeSubstitution>false</allowSubtypeSubstitution>
+<use>3</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6AAA7848-AF41-4733-BCD4-E9AD7316AF58" schemaObject="8BDFB479-16BE-1DBC-B7D0-023589A7189F" name="TB_ZONA_PK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>RM557311</sourceObjSchema>
+<sourceObjName>SYS_C003140610</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-23 20:34:53 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE7AD1F1-A59F-C43D-18A7-FE75E677EC69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
