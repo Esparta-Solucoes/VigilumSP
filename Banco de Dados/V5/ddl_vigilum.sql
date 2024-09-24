@@ -34,7 +34,7 @@ CREATE TABLE tb_clima_hist (
     vel_vento        NUMBER(5, 2),
     vol_precipitacao NUMBER(5, 2),
     tp_nuvem         VARCHAR2(50),
-    pressao_atm      NUMBER(5, 2)
+    pressao_atm      NUMBER(7, 2)
 );
 
 CREATE TABLE tb_clima_prev (
@@ -49,7 +49,7 @@ CREATE TABLE tb_clima_prev (
     vel_vento        NUMBER(5, 2),
     vol_precipitacao NUMBER(5, 2),
     tp_nuvem         VARCHAR2(50),
-    pressao_atm      NUMBER(5, 2)
+    pressao_atm      NUMBER(7, 2)
 );
 
 CREATE TABLE tb_clima_risc (
