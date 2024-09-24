@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TB_ENERGIA_HIST_TB_ZONA_FK" directorySegmentName="seg_0" id="B12B29D5-29B8-8506-5B06-7BB75492F80B">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 19:33:51 UTC</createdTime>
+<generatorID>B04D8C3D-2E1C-9041-C2D4-6D78DCEE5E90</generatorID>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<engineerTo>
+<item key="226CAA07-09AC-14B3-9CC9-ADA55091D91F" value="true"/>
+</engineerTo>
+<sourcePk>36D41FB2-E524-3F37-E668-6203C87B870E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F6660CE9-ECF5-CA8A-625E-109C81B7522C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FB58EC79-B1E2-F847-C3BF-0FFEE47DC0A9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

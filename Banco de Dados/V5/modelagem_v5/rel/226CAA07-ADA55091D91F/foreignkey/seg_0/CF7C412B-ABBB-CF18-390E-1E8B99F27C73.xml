@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CF7C412B-ABBB-CF18-390E-1E8B99F27C73" containerWithKeyObject="E57D308B-8BAA-8C7A-B808-B56D60AA4B86" localFKIndex="7C9A021E-91F9-1BCD-C09C-0B36CFDB9CCE" name="TB_CLIMA_HIST_TB_ZONA_FK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>RM557311</sourceObjSchema>
+<sourceObjName>TB_CLIMA_HIST_TB_ZONA_FK</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:43 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<referredTableLongName>TB_ZONA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>70D6C995-34BC-89A1-A09E-61F8672F2857</referredTableID>
+<keyObject>24069988-EC07-6C1B-8A21-567EAAC5ECFE</keyObject>
+<referredKeyID>24069988-EC07-6C1B-8A21-567EAAC5ECFE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CD_ZONA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

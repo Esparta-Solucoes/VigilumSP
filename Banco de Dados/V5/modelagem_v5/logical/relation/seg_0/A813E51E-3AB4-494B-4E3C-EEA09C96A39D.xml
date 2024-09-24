@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TB_CLIMA_HIST_TB_ZONA_FK" directorySegmentName="seg_0" id="A813E51E-3AB4-494B-4E3C-EEA09C96A39D">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 19:33:51 UTC</createdTime>
+<generatorID>CF7C412B-ABBB-CF18-390E-1E8B99F27C73</generatorID>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<engineerTo>
+<item key="226CAA07-09AC-14B3-9CC9-ADA55091D91F" value="true"/>
+</engineerTo>
+<sourcePk>36D41FB2-E524-3F37-E668-6203C87B870E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F6660CE9-ECF5-CA8A-625E-109C81B7522C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5A118553-99C3-4878-1AE0-D23DF9F76557</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

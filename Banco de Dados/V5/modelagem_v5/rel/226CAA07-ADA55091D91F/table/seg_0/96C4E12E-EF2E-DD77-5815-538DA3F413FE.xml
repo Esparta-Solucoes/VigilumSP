@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96C4E12E-EF2E-DD77-5815-538DA3F413FE" name="TB_ENERGIA_HIST">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>RM557311</sourceObjSchema>
+<sourceObjName>TB_ENERGIA_HIST</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:26 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_QUEDA_ENER" id="8FE3F01E-7B22-3B04-9374-A04AB23B3476">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENERGIA_HIST</sourceObjSchema>
+<sourceObjName>CD_QUEDA_ENER</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="TB_ZONA_CD_ZONA" id="7647F454-91E8-3010-20C0-03C1D399CD86">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENERGIA_HIST</sourceObjSchema>
+<sourceObjName>TB_ZONA_CD_ZONA</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B04D8C3D-2E1C-9041-C2D4-6D78DCEE5E90" referredColumn="6E99D925-90D9-645C-54E1-802601753B42"/>
+</associations>
+</Column>
+<Column name="DT_HR_INICIO" id="B6ECDF21-6347-22FA-A2FF-FD4512EC98F7">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENERGIA_HIST</sourceObjSchema>
+<sourceObjName>DT_HR_INICIO</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_HR_FIM" id="C0131009-CF82-86B4-FB52-FD58479BB734">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENERGIA_HIST</sourceObjSchema>
+<sourceObjName>DT_HR_FIM</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_CAUSA_QUEDA" id="B09C419F-1213-FA74-AF8A-DDA3ED9C9D39">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENERGIA_HIST</sourceObjSchema>
+<sourceObjName>DS_CAUSA_QUEDA</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IND_HIST_ENERGIA" id="6D3C6C70-7B1F-53D9-0EE5-C03C7221CD94">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENERGIA_HIST</sourceObjSchema>
+<sourceObjName>IND_HIST_ENERGIA</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indice hist energia]]></commentInRDBMS>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_QUEDA_ENERGIA" id="C53D28FF-651F-4C36-C316-1E696E068E13">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_ENERGIA_HIST</sourceObjSchema>
+<sourceObjName>ST_QUEDA_ENERGIA</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B556501F-3D69-DEFD-844B-78AE93313371" schemaObject="D555B97E-BAF0-5BBC-D584-17E98E19B6F5" name="TB_ENERGIA_HIST_PK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>RM557311</sourceObjSchema>
+<sourceObjName>SYS_C003140581</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:28 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FE3F01E-7B22-3B04-9374-A04AB23B3476"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB6EB21B-D493-0401-9851-2299420E864A" name="TB_ENERGIA_HIST_TB_ZONA_FK">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:43 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7647F454-91E8-3010-20C0-03C1D399CD86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

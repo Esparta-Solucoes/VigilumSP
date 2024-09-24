@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="257D5529-7849-A9D5-3A50-C871B686F7E1" name="TB SOLO RISCO">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 19:33:51 UTC</createdTime>
+<generatorID>8DE05B92-5994-0420-CFD1-4707FE8463AF</generatorID>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<engineerTo>
+<item key="226CAA07-09AC-14B3-9CC9-ADA55091D91F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD SOLO RISCO" id="ED354106-AAE6-3CFE-A3E4-77446500B834">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 19:33:51 UTC</createdTime>
+<generatorID>5DF77CD3-363D-2AE9-7BC2-C04D8A38B650</generatorID>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<engineerTo>
+<item key="226CAA07-09AC-14B3-9CC9-ADA55091D91F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TB SOLO CD SOLO" id="22EC39EB-2ABE-CB67-EB06-D7AADC01BD32">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 19:33:51 UTC</createdTime>
+<generatorID>A1123A55-0661-DDD8-1FC3-3433BF813A98</generatorID>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<engineerTo>
+<item key="226CAA07-09AC-14B3-9CC9-ADA55091D91F" value="true"/>
+</engineerTo>
+<referedAttribute>7C90CF48-34FF-431F-8B4F-3283309709DE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS RISCO" id="C958E732-015A-9D46-8023-5A05564DE2BE">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 19:33:51 UTC</createdTime>
+<generatorID>36A930CC-372F-EB44-0C90-9AA1F2EDD19E</generatorID>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<engineerTo>
+<item key="226CAA07-09AC-14B3-9CC9-ADA55091D91F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C8AFDC66-A3EC-3AFB-F741-803EC52391BA" name="TB SOLO RISCO PK">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 19:33:51 UTC</createdTime>
+<generatorID>1808DD9A-96DF-072A-1F20-6F445C56CA88</generatorID>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<engineerTo>
+<item key="226CAA07-09AC-14B3-9CC9-ADA55091D91F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ED354106-AAE6-3CFE-A3E4-77446500B834</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

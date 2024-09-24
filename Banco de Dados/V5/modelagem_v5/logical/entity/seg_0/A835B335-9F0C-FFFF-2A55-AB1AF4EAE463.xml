@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A835B335-9F0C-FFFF-2A55-AB1AF4EAE463" name="TB SOLO">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 19:33:51 UTC</createdTime>
+<generatorID>D84A8327-F746-54FD-DB44-85EC1D112EA0</generatorID>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<engineerTo>
+<item key="226CAA07-09AC-14B3-9CC9-ADA55091D91F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD SOLO" id="7C90CF48-34FF-431F-8B4F-3283309709DE">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 19:33:51 UTC</createdTime>
+<generatorID>AE96AD84-1B19-CD3B-D3DE-752DACD5DE39</generatorID>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<engineerTo>
+<item key="226CAA07-09AC-14B3-9CC9-ADA55091D91F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TB ENDERECOS CD END" id="F9A03FFB-274D-C42C-CF41-16F485888C29">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 19:33:51 UTC</createdTime>
+<generatorID>5AF20BDF-7A2B-EDA9-F703-E2B4441CD9B7</generatorID>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<engineerTo>
+<item key="226CAA07-09AC-14B3-9CC9-ADA55091D91F" value="true"/>
+</engineerTo>
+<referedAttribute>A89AAF43-842F-441B-5F7F-6BC7EB329D72</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COORD GEOTECNICAS" id="08253B2F-DA78-ADEC-239C-8CE44E254BC1">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 19:33:51 UTC</createdTime>
+<generatorID>F755A149-853B-76BE-29EB-5D5EC1932B53</generatorID>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<engineerTo>
+<item key="226CAA07-09AC-14B3-9CC9-ADA55091D91F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS OCORR" id="589B07F4-2508-0FC1-B3E7-D4B3DA8E63CA">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 19:33:51 UTC</createdTime>
+<generatorID>3BFA3060-5275-A942-2867-D7D4DE75A767</generatorID>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<engineerTo>
+<item key="226CAA07-09AC-14B3-9CC9-ADA55091D91F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A17ECD95-1886-972C-E786-B3962903F9F8" name="TB SOLO PK">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 19:33:51 UTC</createdTime>
+<generatorID>8AD58ECE-C7FB-742E-EEB1-F948F101956E</generatorID>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<engineerTo>
+<item key="226CAA07-09AC-14B3-9CC9-ADA55091D91F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7C90CF48-34FF-431F-8B4F-3283309709DE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

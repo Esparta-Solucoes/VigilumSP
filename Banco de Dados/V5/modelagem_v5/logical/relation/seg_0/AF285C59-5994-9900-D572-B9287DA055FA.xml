@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TB_ENDERECOS_TB_ZONA_FK" directorySegmentName="seg_0" id="AF285C59-5994-9900-D572-B9287DA055FA">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 19:33:51 UTC</createdTime>
+<generatorID>4EFBA077-A5A1-B86D-8400-0538E5BE3A61</generatorID>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<engineerTo>
+<item key="226CAA07-09AC-14B3-9CC9-ADA55091D91F" value="true"/>
+</engineerTo>
+<sourcePk>36D41FB2-E524-3F37-E668-6203C87B870E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F6660CE9-ECF5-CA8A-625E-109C81B7522C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E61516E1-96E5-8215-CC82-62BC13329FE8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

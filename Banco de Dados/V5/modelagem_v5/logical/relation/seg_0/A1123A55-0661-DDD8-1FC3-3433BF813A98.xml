@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TB_SOLO_RISCO_TB_SOLO_FK" directorySegmentName="seg_0" id="A1123A55-0661-DDD8-1FC3-3433BF813A98">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 19:33:51 UTC</createdTime>
+<generatorID>0FDA5453-ADEA-D3FC-EFAE-899C5ABBC98D</generatorID>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<engineerTo>
+<item key="226CAA07-09AC-14B3-9CC9-ADA55091D91F" value="true"/>
+</engineerTo>
+<sourcePk>A17ECD95-1886-972C-E786-B3962903F9F8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A835B335-9F0C-FFFF-2A55-AB1AF4EAE463</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>257D5529-7849-A9D5-3A50-C871B686F7E1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

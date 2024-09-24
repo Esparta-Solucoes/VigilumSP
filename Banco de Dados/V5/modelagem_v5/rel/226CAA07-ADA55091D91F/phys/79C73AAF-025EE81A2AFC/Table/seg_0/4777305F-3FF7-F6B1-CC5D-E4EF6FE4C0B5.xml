@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TB_ENDERECOS" directorySegmentName="seg_0" id="4777305F-3FF7-F6B1-CC5D-E4EF6FE4C0B5">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:26 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AC95DDA6-CA20-F61D-81F6-98B59F48268A</segment>
+<tableSpace>71FF10C7-3162-7E83-F65E-989405068FF8</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="VL2" id="01E1B960-A1AA-FE75-5CA7-691DD01536E0">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TITULO_LOGRA" id="135FE91C-492C-15D8-9BC8-68692E655F55">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAT" id="15243AC9-B7FD-03E8-9DB8-D46402FA0F94">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INDICA_END" id="2120A827-3C85-422D-4F72-935FE2A73381">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TB_ZONA_CD_ZONA" id="29BCDC25-C291-0FAC-2DB0-070ECB2B38EC">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SETCENS" id="3327E38D-9F9B-6F17-CAF8-27B7DC5EA57B">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TB_SOLO_CD_SOLO" id="34531F1F-0AF2-FBE3-BCBF-BB508AA4EEFB">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TP_LOGRA" id="394A1CCC-2F02-1D8E-5056-884FE1892B1A">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ELEM2" id="4FA19E94-E56B-FF8C-3E5C-6FBE1EBF52FE">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TB_DISTRITO_CD_DISTRITO" id="60C1B451-FBA9-523B-9806-0B2EE94276DD">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_END" id="629B1113-3F88-FD76-6B3A-A91D7EFACD2C">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SETCENS2" id="76A06808-A5E4-22C7-D11D-AF6662B154E7">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NR_QUADRA" id="782A5CFE-9007-6A56-E304-C418A6617F47">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NR_FACE" id="8528C6E4-6885-3EC6-35EA-92C0E65F0D9C">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_SETOR" id="884F9052-41C7-16BA-74C0-A89FB0B2C947">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOCALIDADE" id="8D8016E2-39E9-F4E9-3A61-C46CC613CBC5">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VL1" id="96AA00E5-0361-1B86-78CB-A31E093D3C25">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MOD_NUM_LOGRA" id="98D03E13-0866-6065-6091-32B6EB99468B">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ST_SETOR" id="A9C730A8-DCEE-B1D2-A5EE-4BEAAA3A3597">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="long" id="AA1598C0-671E-0046-1AE7-2651821B703C">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="AREAP" id="AB6F7F75-5A70-345D-BCDE-80D1973A3FD0">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TB_INFRA_CD_INFRA" id="B0D41E61-D165-13C4-0A74-A6177B44371E">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ELEM1" id="CFECF48F-7693-C427-F7A8-8656BAB0BCBE">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NR_CEP" id="E4250060-F44E-C544-3A28-98FC0B62DA10">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AREAP2" id="E9A19214-FE34-4662-51FB-C70EE9433D8D">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NM_LOGRA" id="F75DE8A7-F7E3-AC11-8AFD-AFE8CD5B010C">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NR_EDIF" id="FA7FE036-9EFD-52C2-9FF1-34F1183075F9">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TB_ENDERECOS_PK" id="2B19172B-44BA-E594-10C0-324BFC1EECD5">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:28 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<schemaObject>D555B97E-BAF0-5BBC-D584-17E98E19B6F5</schemaObject>
+<segment>512142E9-65DF-EBB4-1857-EF37C6604A0F</segment>
+<tableSpace>71FF10C7-3162-7E83-F65E-989405068FF8</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TB_ENDERECOS_TB_INFRA_FK" id="524486DD-9CC7-9249-0F58-DDA1C270F878">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:43 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TB_ENDERECOS_TB_DISTRITO_FK" id="52616D35-8A24-5958-D868-1923E13BA3D1">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:43 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TB_ENDERECOS_TB_SOLO_FK" id="99D2ED71-F9B1-6C36-543E-44B848A0794E">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:43 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TB_ENDERECOS_TB_ZONA_FK" id="ADB67AED-57BF-17F6-4B9A-847F851F22A4">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:43 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TB_ENDERECOS_PK" id="B0390EDE-5E92-E845-8588-A6FED2E15D6D">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:36 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<segment>512142E9-65DF-EBB4-1857-EF37C6604A0F</segment>
+<tableSpace>71FF10C7-3162-7E83-F65E-989405068FF8</tableSpace>
+<existingIndex>2B19172B-44BA-E594-10C0-324BFC1EECD5</existingIndex>
+<indexSegment>512142E9-65DF-EBB4-1857-EF37C6604A0F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1BF054B1-45EB-C3DE-81A2-3FAE1A827C6D" schemaObject="D555B97E-BAF0-5BBC-D584-17E98E19B6F5" name="TB_CLIMA_CHUVA">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>RM557311</sourceObjSchema>
+<sourceObjName>TB_CLIMA_CHUVA</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:26 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_CLIMA_CHUVA" id="697FFAEC-F2F9-5DCA-D73C-792C817E2B27">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_CLIMA_CHUVA</sourceObjSchema>
+<sourceObjName>CD_CLIMA_CHUVA</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="TB_DISTRITO_CD_DISTRITO" id="AEF9DF15-6080-C716-CE5C-3EAD1718C6F9">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_CLIMA_CHUVA</sourceObjSchema>
+<sourceObjName>TB_DISTRITO_CD_DISTRITO</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B24238C-F643-F577-D356-3C9DF14A3446" referredColumn="A239B284-7027-6559-AE34-14712E9B7EFD"/>
+</associations>
+</Column>
+<Column name="MEDIA_CHUVA" id="34AC8298-8226-AB35-6EC1-06D48FAF225F">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_CLIMA_CHUVA</sourceObjSchema>
+<sourceObjName>MEDIA_CHUVA</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[media_mensal_chuva]]></commentInRDBMS>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F97085F5-BAC4-4F16-36E5-F31D667E6A6A" schemaObject="D555B97E-BAF0-5BBC-D584-17E98E19B6F5" name="TB_CLIMA_CHUVA_PK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>RM557311</sourceObjSchema>
+<sourceObjName>SYS_C003140550</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:28 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="697FFAEC-F2F9-5DCA-D73C-792C817E2B27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C054C512-BBDF-8101-6370-569EA43AE166" name="TB_CLIMA_CHUVA_TB_DISTRITO_FK">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:43 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEF9DF15-6080-C716-CE5C-3EAD1718C6F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

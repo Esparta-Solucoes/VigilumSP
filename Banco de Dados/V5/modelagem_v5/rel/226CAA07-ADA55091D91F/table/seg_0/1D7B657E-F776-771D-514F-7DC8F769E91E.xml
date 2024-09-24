@@ -1,0 +1,229 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D7B657E-F776-771D-514F-7DC8F769E91E" name="TB_CLIMA_PREV">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>RM557311</sourceObjSchema>
+<sourceObjName>TB_CLIMA_PREV</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:26 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_PREVISAO" id="126A3F55-FB84-835F-4AF0-D405DD7BCCCE">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_CLIMA_PREV</sourceObjSchema>
+<sourceObjName>CD_PREVISAO</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="TB_ZONA_CD_ZONA" id="EF3BC368-81B7-36C2-D5FC-A6767D4170C9">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_CLIMA_PREV</sourceObjSchema>
+<sourceObjName>TB_ZONA_CD_ZONA</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFC662C7-7379-AD45-B5DD-6B8D1A2BBE08" referredColumn="6E99D925-90D9-645C-54E1-802601753B42"/>
+</associations>
+</Column>
+<Column name="DT_REFERENCIA" id="47F78E28-9D8F-6185-E796-4B45C379C3BB">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_CLIMA_PREV</sourceObjSchema>
+<sourceObjName>DT_REFERENCIA</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DT_FUTURA" id="126BB0ED-6EA3-DFAF-F564-EE43034C6C33">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_CLIMA_PREV</sourceObjSchema>
+<sourceObjName>DT_FUTURA</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEMP_MAX" id="14308D3C-B73D-71F9-C65B-08965D7F8656">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_CLIMA_PREV</sourceObjSchema>
+<sourceObjName>TEMP_MAX</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEMP_MIN" id="1B8A4374-14F8-5DC0-AEAE-F1BEF131CBB6">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_CLIMA_PREV</sourceObjSchema>
+<sourceObjName>TEMP_MIN</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UMID_MAX" id="7A3EE179-E80C-703A-A751-25102BC1C5D5">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_CLIMA_PREV</sourceObjSchema>
+<sourceObjName>UMID_MAX</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UMID_MIN" id="FA70CB6A-061F-53A9-B0CF-EEDDB6A60DEC">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_CLIMA_PREV</sourceObjSchema>
+<sourceObjName>UMID_MIN</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VEL_VENTO" id="281B4EF7-F70E-BAC7-140F-052EAF90DDD9">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_CLIMA_PREV</sourceObjSchema>
+<sourceObjName>VEL_VENTO</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VOL_PRECIPITACAO" id="385EF4D1-B20A-922F-FA19-330DA0DBAD70">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_CLIMA_PREV</sourceObjSchema>
+<sourceObjName>VOL_PRECIPITACAO</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TP_NUVEM" id="24731CD0-E2ED-C3AA-F59C-14728F4161BF">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_CLIMA_PREV</sourceObjSchema>
+<sourceObjName>TP_NUVEM</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRESSAO_ATM" id="5FC48D5C-54C5-D3B7-9A7C-814218FF799E">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_CLIMA_PREV</sourceObjSchema>
+<sourceObjName>PRESSAO_ATM</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0FDB65F-6EED-C1A5-81BD-BC61E08DBE97" schemaObject="D555B97E-BAF0-5BBC-D584-17E98E19B6F5" name="TB_CLIMA_PREV_PK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>RM557311</sourceObjSchema>
+<sourceObjName>SYS_C003140564</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:28 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="126A3F55-FB84-835F-4AF0-D405DD7BCCCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F9FAC94-D642-1A31-D44D-391D0D027786" name="TB_CLIMA_PREV_TB_ZONA_FK">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:43 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF3BC368-81B7-36C2-D5FC-A6767D4170C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

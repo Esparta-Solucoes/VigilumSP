@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TB_CLIMA_RISC" directorySegmentName="seg_0" id="1A37EB68-6CA7-C956-63EC-DF1C5D641342">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:26 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AC95DDA6-CA20-F61D-81F6-98B59F48268A</segment>
+<tableSpace>71FF10C7-3162-7E83-F65E-989405068FF8</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CD_CLIMA_RISCO" id="C404D96D-CC43-DF7C-95B6-226A4670F956">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="DS_RISCO" id="EEEB082A-6E57-2A85-C35C-561C926371CD">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TB_CLIMA_HIST_CD_PREVISAO" id="FCDD190E-2CA2-6B78-9396-C636623D1BFB">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TB_CLIMA_RISC_TB_CLIMA_HIST_FK" id="1B9CFA12-F0C2-3DC6-A301-D885396B583C">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:43 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TB_CLIMA_RISC_PK" id="66584FA9-C45D-A6DD-39A3-FA41DBD2C40D">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:36 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<schemaObject>D555B97E-BAF0-5BBC-D584-17E98E19B6F5</schemaObject>
+<segment>512142E9-65DF-EBB4-1857-EF37C6604A0F</segment>
+<tableSpace>71FF10C7-3162-7E83-F65E-989405068FF8</tableSpace>
+<indexSegment>512142E9-65DF-EBB4-1857-EF37C6604A0F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TB_ENERGIA_HIST" directorySegmentName="seg_0" id="96C4E12E-EF2E-DD77-5815-538DA3F413FE">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:26 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AC95DDA6-CA20-F61D-81F6-98B59F48268A</segment>
+<tableSpace>71FF10C7-3162-7E83-F65E-989405068FF8</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="IND_HIST_ENERGIA" id="6D3C6C70-7B1F-53D9-0EE5-C03C7221CD94">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TB_ZONA_CD_ZONA" id="7647F454-91E8-3010-20C0-03C1D399CD86">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_QUEDA_ENER" id="8FE3F01E-7B22-3B04-9374-A04AB23B3476">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="DS_CAUSA_QUEDA" id="B09C419F-1213-FA74-AF8A-DDA3ED9C9D39">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DT_HR_INICIO" id="B6ECDF21-6347-22FA-A2FF-FD4512EC98F7">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DT_HR_FIM" id="C0131009-CF82-86B4-FB52-FD58479BB734">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ST_QUEDA_ENERGIA" id="C53D28FF-651F-4C36-C316-1E696E068E13">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TB_ENERGIA_HIST_TB_ZONA_FK" id="FB6EB21B-D493-0401-9851-2299420E864A">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:43 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TB_ENERGIA_HIST_PK" id="B556501F-3D69-DEFD-844B-78AE93313371">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:36 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<schemaObject>D555B97E-BAF0-5BBC-D584-17E98E19B6F5</schemaObject>
+<segment>512142E9-65DF-EBB4-1857-EF37C6604A0F</segment>
+<tableSpace>71FF10C7-3162-7E83-F65E-989405068FF8</tableSpace>
+<indexSegment>512142E9-65DF-EBB4-1857-EF37C6604A0F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

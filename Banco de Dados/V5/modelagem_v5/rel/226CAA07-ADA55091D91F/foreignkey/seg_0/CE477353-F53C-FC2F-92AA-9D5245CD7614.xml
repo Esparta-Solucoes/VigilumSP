@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CE477353-F53C-FC2F-92AA-9D5245CD7614" containerWithKeyObject="4777305F-3FF7-F6B1-CC5D-E4EF6FE4C0B5" localFKIndex="52616D35-8A24-5958-D868-1923E13BA3D1" name="TB_ENDERECOS_TB_DISTRITO_FK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>RM557311</sourceObjSchema>
+<sourceObjName>TB_ENDERECOS_TB_DISTRITO_FK</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:43 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<referredTableLongName>TB_DISTRITO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>38801CC2-7927-7829-0B22-EA874AA1464F</referredTableID>
+<keyObject>CDC35861-0995-BD42-DBCD-99C3E35AB724</keyObject>
+<referredKeyID>CDC35861-0995-BD42-DBCD-99C3E35AB724</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CD_DISTRITO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

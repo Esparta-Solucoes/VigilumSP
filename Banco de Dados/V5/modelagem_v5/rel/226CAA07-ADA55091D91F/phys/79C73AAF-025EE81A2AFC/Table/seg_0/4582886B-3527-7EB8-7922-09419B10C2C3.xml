@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TB_INFRA_RISCO" directorySegmentName="seg_0" id="4582886B-3527-7EB8-7922-09419B10C2C3">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AC95DDA6-CA20-F61D-81F6-98B59F48268A</segment>
+<tableSpace>71FF10C7-3162-7E83-F65E-989405068FF8</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TB_INFRA_CD_INFRA" id="2437E667-B806-1FB2-86E6-D620CD834E76">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CD_INFRA_RISCO" id="9C78D6C5-8AA0-A1AA-85A9-D96E28F23179">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="DS_RISCO" id="BA671C76-D3F3-B2DD-F4F0-AED39D4E4862">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TB_INFRA_RISCO_TB_INFRA_FK" id="862DCCA8-8BC1-F514-E16B-FA46DEA79BAF">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:43 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TB_INFRA_RISCO_PK" id="1EAF6D8D-C6DB-0DE6-594B-BF28519F0D97">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:36 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<schemaObject>D555B97E-BAF0-5BBC-D584-17E98E19B6F5</schemaObject>
+<segment>512142E9-65DF-EBB4-1857-EF37C6604A0F</segment>
+<tableSpace>71FF10C7-3162-7E83-F65E-989405068FF8</tableSpace>
+<indexSegment>512142E9-65DF-EBB4-1857-EF37C6604A0F</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
