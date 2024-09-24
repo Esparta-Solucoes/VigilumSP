@@ -1,6 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="RM557311" directorySegmentName="seg_0" id="8BDFB479-16BE-1DBC-B7D0-023589A7189F">
-<createdBy>axel.chepanski</createdBy>
-<createdTime>2024-09-23 20:34:51 UTC</createdTime>
-<ownerDesignName>modelagem_v5</ownerDesignName>
-</SchemaObject>
