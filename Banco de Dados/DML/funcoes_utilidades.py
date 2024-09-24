@@ -100,12 +100,12 @@ def find_nearest_zone(lat, lon, df_zona):
     
     # Iterar sobre cada zona para encontrar a mais próxima
     for index, row in df_zona.iterrows():
-        central_lat, central_lon = row['CORD_CENTRAL'].y, row['CORD_CENTRAL'].x
+        central_lat, central_lon = row['COORD_CENTRAL'].y, row['COORD_CENTRAL'].x
         distance = haversine_distance(lat, lon, central_lat, central_lon)
         
         if distance < min_distance:
             min_distance = distance
-            nearest_zone_id = row['ID']
+            nearest_zone_id = row['CD_ZONA']
     
     return nearest_zone_id
 
@@ -224,8 +224,8 @@ def insert_data_to_tbl_previsao(connection, mapped_data, zona_id):
 
     # Preparar o comando SQL para inserção
     insert_sql = """
-    INSERT INTO TBL_Previsao (Zona_Id, Data, Hora, Temperatura_Max, Temperatura_Min, 
-                              Umidade_Max, Umidade_Min, Velocidade_Vento, Volume_Precipitacao, Pressao_Atm)
+    INSERT INTO TB_CLIMA_HIST (tb_zona_cd_zona, dt_previsao, hora_previsao, temp_max, temp_min, 
+                              umid_max, umid_min, vel_vento, vol_precipitacao, pressao_atm)
     VALUES (:1, TO_DATE(:2, 'YYYY-MM-DD'), :3, :4, :5, :6, :7, :8, :9, :10)
     """
     
@@ -255,7 +255,7 @@ def insert_data_to_tbl_previsao(connection, mapped_data, zona_id):
     # Fechar o cursor
     cursor.close()
     
-    print(f"{len(data_to_insert)} registros inseridos com sucesso na tabela TBL_Previsao.")
+    print(f"{len(data_to_insert)} registros inseridos com sucesso na tabela TB_CLIMA_HIST.")
     
     
 def process_all_excel_files(directory, df_zona, connection):
