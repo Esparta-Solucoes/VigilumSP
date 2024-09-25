@@ -22,6 +22,8 @@ import { AlertaComponent } from 'app/alerta/alerta.component';
 import { ReportarComponent } from 'app/reportar/reportar.component';
 import { NgxMaskModule } from 'ngx-mask';
 import { HttpClientModule } from '@angular/common/http';
+import { MapaComponent } from 'app/mapa/mapa.component';
+import { PrevisaoComponent } from 'app/previsao/previsao.component';
 
 
 @NgModule({
@@ -47,7 +49,9 @@ import { HttpClientModule } from '@angular/common/http';
     IconsComponent,
     MapsComponent,
     NotificationsComponent,
-    UpgradeComponent
+    UpgradeComponent,
+    MapaComponent,
+    PrevisaoComponent
   ]
 })
 
