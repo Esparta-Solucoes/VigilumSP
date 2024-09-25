@@ -187,3 +187,5 @@ API/Business/obj
 # Ignorar diretórios bin e obj da DAL
 API/DAL/bin
 API/DAL/obj
+
+API/API/appsettings.json
