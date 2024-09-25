@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9EAB6727-6827-6F42-A35B-F8BAC5EA8AA0" containerWithKeyObject="4777305F-3FF7-F6B1-CC5D-E4EF6FE4C0B5" localFKIndex="99D2ED71-F9B1-6C36-543E-44B848A0794E" name="TB_ENDERECOS_TB_SOLO_FK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>RM557311</sourceObjSchema>
+<sourceObjName>TB_ENDERECOS_TB_SOLO_FK</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:43 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<referredTableLongName>TB_SOLO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D84A8327-F746-54FD-DB44-85EC1D112EA0</referredTableID>
+<keyObject>8AD58ECE-C7FB-742E-EEB1-F948F101956E</keyObject>
+<referredKeyID>8AD58ECE-C7FB-742E-EEB1-F948F101956E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CD_SOLO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

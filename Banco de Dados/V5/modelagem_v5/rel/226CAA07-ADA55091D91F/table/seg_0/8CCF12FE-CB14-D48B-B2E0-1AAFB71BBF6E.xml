@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8CCF12FE-CB14-D48B-B2E0-1AAFB71BBF6E" name="TB_PREV_RISCO">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>RM557311</sourceObjSchema>
+<sourceObjName>TB_PREV_RISCO</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:26 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_PREVISAO_RISCO" id="0514A403-1FFD-F4D9-2AED-4D7100AF88E4">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_PREV_RISCO</sourceObjSchema>
+<sourceObjName>CD_PREVISAO_RISCO</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="TB_CLIMA_PREV_CD_PREVISAO" id="75F8F52B-94F6-158E-3549-EEFDA56A1D0F">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_PREV_RISCO</sourceObjSchema>
+<sourceObjName>TB_CLIMA_PREV_CD_PREVISAO</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2AEC931A-43BF-14AD-0704-96D32BB7E30E" referredColumn="126A3F55-FB84-835F-4AF0-D405DD7BCCCE"/>
+</associations>
+</Column>
+<Column name="DS_RISCO" id="6FF1FBB9-000F-A054-C24A-4618AAFD39EF">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_PREV_RISCO</sourceObjSchema>
+<sourceObjName>DS_RISCO</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="533B0979-2891-264A-9184-2882DB14688A" schemaObject="D555B97E-BAF0-5BBC-D584-17E98E19B6F5" name="TB_PREV_RISCO_PK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>RM557311</sourceObjSchema>
+<sourceObjName>SYS_C003140600</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:29 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0514A403-1FFD-F4D9-2AED-4D7100AF88E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C9B9F23-166D-13EB-3814-84027D64CB30" name="TB_PREV_RISCO_TB_CLIMA_PREV_FK">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:43 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75F8F52B-94F6-158E-3549-EEFDA56A1D0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

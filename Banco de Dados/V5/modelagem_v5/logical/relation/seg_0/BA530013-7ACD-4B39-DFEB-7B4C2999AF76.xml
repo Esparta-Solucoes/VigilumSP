@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TB_ENDERECOS_TB_SOLO_FK" directorySegmentName="seg_0" id="BA530013-7ACD-4B39-DFEB-7B4C2999AF76">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 19:33:51 UTC</createdTime>
+<generatorID>9EAB6727-6827-6F42-A35B-F8BAC5EA8AA0</generatorID>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<engineerTo>
+<item key="226CAA07-09AC-14B3-9CC9-ADA55091D91F" value="true"/>
+</engineerTo>
+<sourcePk>A17ECD95-1886-972C-E786-B3962903F9F8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A835B335-9F0C-FFFF-2A55-AB1AF4EAE463</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E61516E1-96E5-8215-CC82-62BC13329FE8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

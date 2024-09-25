@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TB_CLIMA_CHUVA_TB_DISTRITO_FK" directorySegmentName="seg_0" id="FE415209-3C4F-1149-37D0-AF3B7AD79D9F">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 19:33:51 UTC</createdTime>
+<generatorID>3B24238C-F643-F577-D356-3C9DF14A3446</generatorID>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<engineerTo>
+<item key="226CAA07-09AC-14B3-9CC9-ADA55091D91F" value="true"/>
+</engineerTo>
+<sourcePk>21460714-1F53-3697-DEEF-B61A5B2CD166</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3154B0AF-9607-AC91-2B71-B816F2B098DD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>662F5363-2A06-5999-2C35-28D93DA62F87</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

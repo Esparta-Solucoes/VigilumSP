@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="655F0982-1DE2-B3DB-5BF2-32910DC461AC" containerWithKeyObject="4582886B-3527-7EB8-7922-09419B10C2C3" localFKIndex="862DCCA8-8BC1-F514-E16B-FA46DEA79BAF" name="TB_INFRA_RISCO_TB_INFRA_FK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>RM557311</sourceObjSchema>
+<sourceObjName>TB_INFRA_RISCO_TB_INFRA_FK</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:43 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<referredTableLongName>TB_INFRA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9F30F02E-B789-94CA-FBDD-63F4595948E0</referredTableID>
+<keyObject>39A9B48B-9B95-5C6A-6723-61247C1A4EE7</keyObject>
+<referredKeyID>39A9B48B-9B95-5C6A-6723-61247C1A4EE7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CD_INFRA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

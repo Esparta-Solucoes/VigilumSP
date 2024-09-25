@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8DE05B92-5994-0420-CFD1-4707FE8463AF" name="TB_SOLO_RISCO">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>RM557311</sourceObjSchema>
+<sourceObjName>TB_SOLO_RISCO</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CD_SOLO_RISCO" id="5DF77CD3-363D-2AE9-7BC2-C04D8A38B650">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_SOLO_RISCO</sourceObjSchema>
+<sourceObjName>CD_SOLO_RISCO</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="TB_SOLO_CD_SOLO" id="AEB825BD-DECD-C551-CC70-CE4CA7CB3C77">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_SOLO_RISCO</sourceObjSchema>
+<sourceObjName>TB_SOLO_CD_SOLO</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FDA5453-ADEA-D3FC-EFAE-899C5ABBC98D" referredColumn="AE96AD84-1B19-CD3B-D3DE-752DACD5DE39"/>
+</associations>
+</Column>
+<Column name="DS_RISCO" id="36A930CC-372F-EB44-0C90-9AA1F2EDD19E">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>TB_SOLO_RISCO</sourceObjSchema>
+<sourceObjName>DS_RISCO</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:27 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1808DD9A-96DF-072A-1F20-6F445C56CA88" schemaObject="D555B97E-BAF0-5BBC-D584-17E98E19B6F5" name="TB_SOLO_RISCO_PK">
+<sourceConnName>FIAP</sourceConnName>
+<sourceObjSchema>RM557311</sourceObjSchema>
+<sourceObjName>SYS_C003140607</sourceObjName>
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:29 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DF77CD3-363D-2AE9-7BC2-C04D8A38B650"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BA9BBC7-AA9D-1270-98C8-CE23E24AA0B7" name="TB_SOLO_RISCO_TB_SOLO_FK">
+<createdBy>axel.chepanski</createdBy>
+<createdTime>2024-09-24 18:06:43 UTC</createdTime>
+<ownerDesignName>modelagem_v5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEB825BD-DECD-C551-CC70-CE4CA7CB3C77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
