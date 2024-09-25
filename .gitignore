@@ -188,4 +188,5 @@ API/Business/obj
 API/DAL/bin
 API/DAL/obj
 
-API/API/appsettings.json
+appsettings.json
+appsettings.Development.json
